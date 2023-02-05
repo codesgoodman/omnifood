@@ -29,6 +29,13 @@ Spacing (px)
   box-sizing: border-box;
 }
 
+html {
+  /* we want the font size to be 10px,  */
+  /* 10px / 16px(default) = 0.625 = 62.5% */
+  /* This would be the percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
