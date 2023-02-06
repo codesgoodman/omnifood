@@ -93,6 +93,11 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
+.container {
+  max-width: 12rem;
+  margin: 0 auto;
+  /*this is a convention along with 1140px*/
+} /*  used to center the component */
 
 .grid {
   display: grid;
