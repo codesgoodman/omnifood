@@ -12,7 +12,11 @@ Bold: 700
 - Line heights: 
 small: 1.05 
 paragraph default:1.6
-default: 1
+default: 1 ~ 1.2
+- Letter spacing
+-0.5px
+0.75px
+
 ---- 2. Colors
 - Primary: #e67e22
 - Tints: #fdf2e9
@@ -51,13 +55,33 @@ body {
 /* ******************* */
 /* Reusuable General Components */
 /* ******************* */
-.heading-primary {
-  font-size: 5.2rem;
+.heading-primary,
+.heading-secondary {
   font-weight: 700;
-  line-height: 1.05;
   letter-spacing: -0.5px;
   color: #333;
+}
+.heading-primary {
+  font-size: 5.2rem;
+
+  line-height: 1.05;
+
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+.sub-heading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #b8651b;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
 .btn:link,
@@ -112,6 +136,7 @@ body {
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
+
 /* ******************* */
 /* Header */
 /* ******************* */
@@ -230,4 +255,8 @@ body {
 .section-how {
   background-color: orange;
   padding: 9.6rem 0;
+}
+
+.step-image {
+  width: 50%;
 }
