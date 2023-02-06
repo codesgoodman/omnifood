@@ -94,9 +94,10 @@ body {
   margin-right: 1.6rem !important;
 }
 .container {
-  max-width: 12rem;
-  margin: 0 auto;
   /*this is a convention along with 1140px*/
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
 } /*  used to center the component */
 
 .grid {
@@ -227,5 +228,6 @@ body {
 /* ******************* */
 
 .section-how {
+  background-color: orange;
   padding: 9.6rem 0;
 }
