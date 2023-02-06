@@ -94,6 +94,18 @@ body {
   margin-right: 1.6rem !important;
 }
 
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
 /* ******************* */
 /* Header */
 /* ******************* */
@@ -203,4 +215,12 @@ body {
 .delievered-text span {
   color: #b8651b;
   font-weight: 700;
+}
+
+/* ******************* */
+/* How It Works Section*/
+/* ******************* */
+
+.section-how {
+  padding: 9.6rem 0;
 }
