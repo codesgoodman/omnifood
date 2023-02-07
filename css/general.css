@@ -134,7 +134,8 @@ body {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
 }
 
 .grid--2-cols {
@@ -143,4 +144,8 @@ body {
 
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
 }
