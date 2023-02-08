@@ -220,11 +220,14 @@
   border-radius: 100px;
   font-weight: 600;
 }
-.tag--veg {
+.tag--vege {
   background-color: #51cf66;
 }
 .tag--pal {
-  background-color: #e67e22;
+  background-color: #ffd43b;
+}
+.tag--vegan {
+  background-color: #94d82d;
 }
 
 .meal-title {
