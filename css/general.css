@@ -24,6 +24,7 @@ default: 1 ~ 1.2
 - Greys: #555, #333
 
 ---- 3. Shadows
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 ---- 4. Border-radius
 default: 9px
 ---- 5. White space
