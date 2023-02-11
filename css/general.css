@@ -92,7 +92,7 @@ body {
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
-
+.btn,
 .btn:link,
 .btn:visited {
   font-size: 2rem;
@@ -102,6 +102,9 @@ body {
   border-radius: 9px;
   transition: all 0.3s;
   font-weight: 600;
+  /* This is only necessary for .btn (cto) */
+  border: none;
+  cursor: pointer;
 }
 .btn--full:link,
 .btn--full:visited {
@@ -165,6 +168,22 @@ body {
 
 .grid--center-v {
   align-items: center;
+}
+.btn--form {
+  background-color: #45260a;
+  color: #fae5d3;
+  align-self: end;
+  padding: 1.2rem !important;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem hsla(28, 80%, 52%, 0.5);
 }
 
 /* Helper classes */
