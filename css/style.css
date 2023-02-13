@@ -20,7 +20,7 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
-  gap: 3.2rem;
+  gap: 4.8rem;
   align-items: center;
 }
 .main-nav-link:link,
