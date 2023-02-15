@@ -21,10 +21,14 @@ allLinks.forEach(function (link) {
         top: 0,
         behavior: "smooth",
       });
+    //scroll to other links
     if (href !== "#" && href.startsWith("#")) {
       const sectionEl = document.querySelector(href);
       sectionEl.scrollIntoView({ behavior: "smooth" });
     }
+    //closing mobile navigation
+    if (link.classList.contains("main-nav-link"))
+      headerEl.classList.toggle("nav-open");
   });
 });
 
