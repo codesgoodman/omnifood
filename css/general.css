@@ -47,7 +47,8 @@ html {
   font-size: 62.5%;
   /* Only works when there is no element positioned absolutely in relation to body / html */
   overflow-x: hidden;
-  scroll-behavior: smooth;
+  /* This in fact now works in safari as well */
+  /* scroll-behavior: smooth; */
 }
 
 body {
