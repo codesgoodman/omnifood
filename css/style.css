@@ -63,6 +63,15 @@
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }
+/* sticky navigation */
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
 /* ******************* */
 /* Hero Section*/
 /* ******************* */
